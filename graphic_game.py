@@ -3,11 +3,11 @@ import pyglet
 
 window = pyglet.window.Window(width=400, height=450, caption="GraphicGame")
 
-Im1 = pyglet.image.load("apple.jpg")
-Im2 = pyglet.image.load("circle.jpeg")
-Im3 = pyglet.image.load("eagle.jpg")
-Im4 = pyglet.image.load("triangle.jpg")
-Im5 = pyglet.image.load("square.jpg")
+Im1 = pyglet.image.load("./images/apple.jpg")
+Im2 = pyglet.image.load("./images/circle.jpeg")
+Im3 = pyglet.image.load("./images/eagle.jpg")
+Im4 = pyglet.image.load("./images/triangle.jpg")
+Im5 = pyglet.image.load("./images/square.jpg")
 
 def InitializeGrid(board):
     #Initializing the grid by inserting random value
